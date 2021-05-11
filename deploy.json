@@ -1,0 +1,18 @@
+{
+    "SRC": "/app001/www/victr/wp-content/plugins/biovu-import",
+    "DEST_DIR": "/app001/www/victr/wp-content/plugins",
+    "EXCLUDES": [
+        ".git",
+        ".gitignore",
+        ".idea",
+        "deploy-configs"
+    ],
+    "DEFAULTS": {
+        "run_tests": false,
+        "run_predeploy": false,
+        "run_postdeploy": false,
+        "deploy_staging": false,
+        "deploy_production": true,
+        "create_tag": true
+    }
+}
